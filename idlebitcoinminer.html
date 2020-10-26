@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bitcoin Miner</title>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="idlebitcoinminer.js"></script>
+
+  </head>
+
+  <body>
+
+
+
+    <div  position=fixed id="staticHeader" align=center>
+    <h1>Idle Bitcoin Miner</h1>
+
+    <h2 id="bitcoinBalance">Bitcoin Balance:</h2>
+  </div>
+
+    <h3 align=center>Mining Equipment</h3>
+
+    <div align=center>
+      <p>Home Computer</P>
+        <img src="computerpic.png" width=150 height=150>
+        <p>Price: 0.01 Bitcoin</p>
+        <p id="cqty">QTY: 1</p>
+        <button type="button" id="compButton" onclick="compFunction()">Buy 1</button>
+
+      </div>
+        <!-- clicking the button will add 1 Mining Equpipment.-->
+
+      <div align=center>
+        <p>Graphics Card</p>
+        <img src="gpu.png" width=150 height=150>
+        <p>Price: 0.1 Bitcoin</p>
+        <p id="gqty">QTY: 0</p>
+        <button type="button" id="gpuButton" onclick="gpuFunction()">Buy 1</button>
+      </div>
+
+      <div align=center>
+        <p>ASIC</p>
+        <img src="asic.png" width=150 height=150>
+        <p>Price: 1 Bitcoin</p>
+        <p id="aqty">QTY: 0</p>
+        <button type="button" id="asicButton" onclick="asicFunction()">Buy 1</button>
+
+      </div>
+
+      <div align=center>
+        <p>Mining Farm</p>
+        <img src="farm.jpg" width=150 height=150>
+        <p>Price: 5 Bitcoin</p>
+        <p id="fqty">QTY: 0</p>
+        <button type="button" id="farmButton" onclick="farmFunction()">Buy 1</button>
+
+      </div>
+
+    </body>
+</html>
