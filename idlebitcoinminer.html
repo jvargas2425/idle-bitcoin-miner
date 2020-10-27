@@ -6,17 +6,29 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="idlebitcoinminer.js"></script>
 
+      <style>
+
+      div.sticky{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: #D3D3D3;
+      border: 2px solid #000000;
+    }
+      </style>
+
   </head>
 
   <body>
 
 
 
-    <div  position=fixed id="staticHeader" align=center>
+    <div align=center class="sticky">
     <h1>Idle Bitcoin Miner</h1>
 
     <h2 id="bitcoinBalance">Bitcoin Balance:</h2>
   </div>
+
 
     <h3 align=center>Mining Equipment</h3>
 
